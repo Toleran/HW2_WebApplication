@@ -1,12 +1,19 @@
 # HW2_WebApplication
+
 ## Description
-This is a sample website of my resume. Bootstrap is used as a CSS framework, and all of my work is based on a template from bootstrap. 
-## Facebook Login
-As the homework required, login module is added in this application. I select Facebook login module since it seems prevalant. What I want to emphasize is that it is necessary to add the URL of our app to Facebook settings (what I have added are "As the homework required, login module is added in this application. I select Facebook login module since it seems prevalant. What I want to emphasize is that it is necessary to add the URL of our app to Facebook settings (what I have added are "http://localhost:63342/HW2/login.html" and "http://localhost:63342/HW2/login.html"). However, I do not have a fixed address, so I can only test Facebook Login on Localhost. Probably it will not work on your Localhost.
-I have recorded a short video in order to show the result of Facebook Login module. Here is the link:
-```
-http://youtu.be/q4_GV1wgSYE?hd=1
-```
+This is a sample website of my resume. Bootstrap is used as a CSS framework, and all of my work is based on a template from bootstrap.
+The URL is:
+
+www.myawesomeresume.com.s3-website-us-east-1.amazonaws.com
+
+
+## Facebook Login and Logout
+As the homework required, login module is added in this application. I select Facebook login module since it seems prevalant. This one works fine. When you login your Facebook account or have done that before, your webbrowser will redirect to the main page. On the other side, if you logout, it will jump back to login page.
+What's more, if you try to access to main page by typing in URL of index.html without login, you are unable to do that.
+
+## Hosting a Static Website
+Since I hope to know something more about AWS, I posted this webpage on AWS as a bucket. Here is the tutorial link: https://www.youtube.com/watch?v=g9NbuTcos18.
+
 ## How to test this web page?
-Altogether I made two pages. You can start with either one - "login.html" or "index.html". If you have logged into FB or log in through login button, it will turn to index.html automatically. If you have not logged into FB or logout, it will turn back to login.html.
-Then, you can check a brief resume on index.html, which is based on template but I did lots of changes.
+It is quite simple. As a regular webpage, what you need to do is open this address in a webbrowser:
+www.myawesomeresume.com.s3-website-us-east-1.amazonaws.com.
