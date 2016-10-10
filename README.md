@@ -17,3 +17,4 @@ Since I hope to know something more about AWS, I posted this webpage on AWS as a
 ## How to test this web page?
 It is quite simple. As a regular webpage, what you need to do is open this address in a webbrowser:
 www.myawesomeresume.com.s3-website-us-east-1.amazonaws.com.
+Be careful about logout, it is on the right corner of index.html. If you have already logged in and want to test it, you can click logout. Try that!
